@@ -1,0 +1,104 @@
+.ScrollBar
+{
+    list-style-type: none;    
+    display: inline;
+    font-size: 0.8cm;
+    text-align: left;
+    padding: 40px;
+}
+
+.mynav{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+}
+
+#name
+{
+    font-weight: bolder;
+    font-size: 1cm;
+    margin:auto 0.5em;
+}
+.nav-list-main{
+    font-size: 1.5em;
+    margin:auto 0.5em;
+}
+#SearchBar
+{
+   border: 30px, solid,black;
+}
+
+
+.headings{
+    margin:20px 0 20px 0;
+    padding-top: 10px;
+}
+
+img
+{
+    border-radius: 5px;
+}
+
+.card-div{
+    margin:auto 2px;
+    width: 100%;
+    padding: 2px;
+    justify-content: space-evenly;
+}
+.card-component{
+    display:flex;
+    flex-direction: row;
+    padding:3px;
+    margin:5px;
+    justify-content: space-evenly;
+}
+
+.my-navbar{
+    padding-top: 3em;
+}
+
+.paragraph{
+    font-size: 1em;
+    text-align: center;
+    font-family: var(--chakra-fonts-suisseIntlRegular);
+    font-size: var(--chakra-fontSizes-xl);
+}
+
+li
+{
+    list-style-type: none;    
+    color: white;
+    margin: 20px;
+    font-size: 0.5cm;
+    text-align: left;
+}
+
+h1
+{
+    font-size: 1cm;
+    font-weight: bolder;
+    color: white !important;
+}
+.white-color{
+    color: white;
+}
+
+.footer
+{
+    background-color: black;
+
+}
+
+.bold
+{
+    font-weight: bolder;
+}
+
+.login-button:hover{
+    background-color: aquamarine;
+}
+
+.button{
+    background-color: antiquewhite;
+    tab-size: 1.5em;
+}
